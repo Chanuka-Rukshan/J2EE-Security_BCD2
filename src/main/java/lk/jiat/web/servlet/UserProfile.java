@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("user_profile")
+@WebServlet("/user-profile")
 public class UserProfile extends HttpServlet {
 
     @Override

@@ -20,22 +20,22 @@ public class LoginServlet extends HttpServlet {
 
         HttpSession session = request.getSession();
 
-        // Check with DB
-        if (username.equals("user") || password.equals("1234")) {
+
+        if ("user".equals(username) && "1234".equals(password)) {
 
             session.setAttribute("username", username);
             session.setAttribute("role", "USER");
 
-            request.getRequestDispatcher("home.jsp").forward(request, response);
+            response.sendRedirect("home.jsp");
 
-        } else if (username.equals("admin") && password.equals("1234")) {
+        } else if ("admin".equals(username) && "1234".equals(password)) {
 
             session.setAttribute("username", username);
             session.setAttribute("role", "ADMIN");
 
-            request.getRequestDispatcher("admin/home.jsp").forward(request, response);
+            response.sendRedirect("admin/home.jsp");
 
-        }else{
+        } else {
 
             request.setAttribute("message","Invalid username or password");
             request.getRequestDispatcher("login.jsp").forward(request, response);
