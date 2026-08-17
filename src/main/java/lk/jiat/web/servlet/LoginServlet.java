@@ -26,18 +26,18 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("username", username);
             session.setAttribute("role", "USER");
 
-            response.sendRedirect("home.jsp");
+            response.sendRedirect(request.getContextPath() + "/home.jsp");
 
         } else if ("admin".equals(username) && "1234".equals(password)) {
 
             session.setAttribute("username", username);
             session.setAttribute("role", "ADMIN");
 
-            response.sendRedirect("admin/home.jsp");
+            response.sendRedirect(request.getContextPath() + "/admin/home.jsp");
 
         } else {
 
-            request.setAttribute("message","Invalid username or password");
+            request.setAttribute("message", "Invalid username or password");
             request.getRequestDispatcher("login.jsp").forward(request, response);
 
         }

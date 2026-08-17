@@ -12,7 +12,6 @@ import java.io.IOException;
         "/home.jsp",
         "/user/*",
         "/admin/*"
-
 })
 
 public class AuthenticationFilter implements Filter {

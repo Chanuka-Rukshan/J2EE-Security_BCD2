@@ -16,9 +16,9 @@ public class AdminAuthorizationFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
-        HttpSession session = request.getSession();
+        HttpSession session = request.getSession(false);
 
-        if (session == null) {
+        if (session == null || session.getAttribute("username") == null) {
             response.sendRedirect(request.getContextPath() + "/login.jsp");
             return;
         }
