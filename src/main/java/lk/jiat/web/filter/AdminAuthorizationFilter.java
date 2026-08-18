@@ -12,13 +12,12 @@ import java.io.IOException;
 public class AdminAuthorizationFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         HttpSession session = request.getSession(false);
 
-        if (session == null || session.getAttribute("username") == null) {
+        if (session == null) {
             response.sendRedirect(request.getContextPath() + "/login.jsp");
             return;
         }
@@ -28,6 +27,7 @@ public class AdminAuthorizationFilter implements Filter {
         if ("ADMIN".equals(role)) {
             filterChain.doFilter(servletRequest, servletResponse);
         } else {
+
             request.setAttribute("message", "You are not allowed to access this resource");
             request.getRequestDispatcher("/home.jsp").forward(servletRequest, servletResponse);
         }

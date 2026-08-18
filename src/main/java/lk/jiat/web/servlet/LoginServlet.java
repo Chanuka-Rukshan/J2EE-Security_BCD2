@@ -11,36 +11,34 @@ import java.io.IOException;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
         HttpSession session = request.getSession();
 
-
-        if ("user".equals(username) && "1234".equals(password)) {
+        // Check with DB
+        if (username.equals("user") && password.equals("1234")) {
 
             session.setAttribute("username", username);
             session.setAttribute("role", "USER");
 
-            response.sendRedirect(request.getContextPath() + "/home.jsp");
+            //request.getRequestDispatcher("home.jsp").forward(request, response);
+            response.sendRedirect("home.jsp");
 
-        } else if ("admin".equals(username) && "1234".equals(password)) {
-
+        } else if (username.equals("admin") && password.equals("1234")) {
             session.setAttribute("username", username);
             session.setAttribute("role", "ADMIN");
 
-            response.sendRedirect(request.getContextPath() + "/admin/home.jsp");
+            //request.getRequestDispatcher("admin/home.jsp").forward(request, response);
+            response.sendRedirect("admin/home.jsp");
 
         } else {
-
             request.setAttribute("message", "Invalid username or password");
             request.getRequestDispatcher("login.jsp").forward(request, response);
-
         }
+
 
     }
 }
