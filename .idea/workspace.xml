@@ -9,22 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f01cf922-b336-41ab-92db-b08b001aef78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/filter/AdminAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/web/filter/AdminAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/web/filter/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/LogoutServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/web/servlet/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user/index.jsp" afterDir="false" />
+    <list default="true" id="f01cf922-b336-41ab-92db-b08b001aef78" name="Changes" comment="Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,63 +42,67 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="1.0372600338613272E-17" />
+      <entry key="MS500" value="4.010306156016093E-4" />
+      <entry key="S2" value="0.14158980062670604" />
+      <entry key="S5" value="0.4959912664769792" />
+      <entry key="S10" value="1.0088133741872412" />
+      <entry key="S30" value="2.3116908311633426" />
+      <entry key="S60" value="3.009707173495011" />
+      <entry key="M2" value="3.4612385219039847" />
+      <entry key="M5" value="3.773348903651461" />
+      <entry key="M10" value="3.904246265361689" />
+      <entry key="M15" value="3.996980995731869" />
+      <entry key="M30" value="4.26926500696409" />
+      <entry key="H1" value="4.695262724917106" />
+      <entry key="H2" value="5.152769027332779" />
+      <entry key="H4" value="5.508718402002227" />
+      <entry key="D1" value="5.906439980162218" />
+      <entry key="W1" value="5.98631239260351" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.00000006240348" />
+      <entry key="S2" value="1.0175233879559165" />
+      <entry key="S5" value="1.2686899891130672" />
+      <entry key="S10" value="1.7161946879278362" />
+      <entry key="S30" value="2.412589335958874" />
+      <entry key="S60" value="2.679679759043215" />
+      <entry key="M2" value="2.832542417262404" />
+      <entry key="M5" value="2.9311757385330393" />
+      <entry key="M10" value="2.9652731773301735" />
+      <entry key="M15" value="2.9767782616799177" />
+      <entry key="M30" value="2.988353720108723" />
+      <entry key="H1" value="2.994167979295678" />
+      <entry key="H2" value="2.9970817659386366" />
+      <entry key="H4" value="2.9985403266014465" />
+      <entry key="D1" value="2.9997566437895022" />
+      <entry key="W1" value="2.999965232933259" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0011140270662777572" />
-      <entry key="MS500" value="0.25667238642999973" />
-      <entry key="S2" value="0.7117783714609083" />
-      <entry key="S5" value="0.8728465805168706" />
-      <entry key="S10" value="0.9342625864910092" />
-      <entry key="S30" value="0.9775890292002194" />
-      <entry key="S60" value="0.9887310196409433" />
-      <entry key="M2" value="0.9943495460052986" />
-      <entry key="M5" value="0.9977359754979398" />
-      <entry key="M10" value="0.9988673462967642" />
-      <entry key="M15" value="0.9992447549144368" />
-      <entry key="M30" value="0.999622306130889" />
-      <entry key="H1" value="0.9998111352304939" />
-      <entry key="H2" value="0.9999055631560883" />
-      <entry key="H4" value="0.9999527804632018" />
-      <entry key="D1" value="0.9999921299223566" />
-      <entry key="W1" value="0.9999988756994016" />
+      <entry key="MS100" value="1.7716151447030054E-13" />
+      <entry key="MS500" value="0.002862780656871429" />
+      <entry key="S2" value="0.31740779476023123" />
+      <entry key="S5" value="1.1293010966694088" />
+      <entry key="S10" value="2.255969692050554" />
+      <entry key="S30" value="4.499743613506418" />
+      <entry key="S60" value="5.564411908111723" />
+      <entry key="M2" value="6.227662795862747" />
+      <entry key="M5" value="6.677139555406511" />
+      <entry key="M10" value="6.855663492787282" />
+      <entry key="M15" value="6.964482350771413" />
+      <entry key="M30" value="7.252944296369576" />
+      <entry key="H1" value="7.687056826877209" />
+      <entry key="H2" value="8.148638442560838" />
+      <entry key="H4" value="8.506641427979044" />
+      <entry key="D1" value="8.906091528325286" />
+      <entry key="W1" value="8.986262546420457" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Herd" />
@@ -268,11 +258,24 @@
       <workItem from="1785812789038" duration="3186000" />
       <workItem from="1785899759543" duration="13872000" />
       <workItem from="1785986908981" duration="13659000" />
-      <workItem from="1787019595369" duration="5725000" />
+      <workItem from="1787019595369" duration="15788000" />
     </task>
+    <task id="LOCAL-00001" summary="Done">
+      <option name="closed" value="true" />
+      <created>1787030617238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787030617238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
 </project>
